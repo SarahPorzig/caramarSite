@@ -18,7 +18,7 @@ h1 {
 }
 .panel-title {
   border: none;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 .panel-default {
@@ -46,11 +46,13 @@ h1 {
 #navBanner {
   width: 100%;
   position: relative;
+  opacity: 0.6
 }
 #navBannerBottom {
   width: 100%;
   position: relative;
   padding-top: 100px;
+    opacity: 0.6
 }
 
 nav > div {
