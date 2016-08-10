@@ -59,5 +59,11 @@ nav > div {
   text-transform: capitalize;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 18px;
-
+}
+.breakerSection {
+  font-size: 80px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  color: rgb(102, 102, 102);
+  padding-top: 200px;
+  padding-bottom: 300px;
 }
