@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Caramar</title>
+</head>
+<body data-spy="scroll" data-target="#collapse">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#featured">Caramar<span class="subhead"> <!--- add sub-branding here if needed --> </span></a>
+        </div> <!-- navbar header -->
+        <div class="collapse navbar-collapse" id="collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#featured">Home</a></li>
+            <li><a href="#propertyDetails" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="propertyDetails">Property Details</a></li>
+            <li><a href="#floraAndFauna" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="floraAndFauna">Flora and Fauna</a></li>
+            <li><a href="#horses" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="horses">Horses</a></li>
+            <li><a href="#history" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="historyDetails">History</a></li>
+          </ul>
+        </div><!-- collapse navbar-collapse -->
+      </div><!-- container -->
+    </nav>
+
+
+
+<img id="navBanner" src="caramarPhotos/fernBanner.jpg" alt="ferns">
+
+
+
+
+<div class="content fluid-container">
+<div id="carouselCaramar" class="carousel slide hidden-xs" data-ride="carousel">
+<!-- indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carouselCaramar" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselCaramar" data-slide-to="1"></li>
+    <li data-target="#carouselCaramar" data-slide-to="2"></li>
+    <li data-target="#carouselCaramar" data-slide-to="3"></li>
+    <li data-target="#carouselCaramar" data-slide-to="4"></li>
+    <li data-target="#carouselCaramar" data-slide-to="5"></li>
+    <li data-target="#carouselCaramar" data-slide-to="6"></li>
+  </ol>
+<!-- wrapper for image slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="caramarPhotos/horses.jpg" alt="horses">
+    </div>
+    <div class="item">
+      <img src="caramarPhotos/trees.jpg" alt="trees">
+    </div>
+    <div class="item">
+      <img src="caramarPhotos/charlieFront.jpg" alt="dog">
+    </div>
+    <div class="item">
+      <img src="caramarPhotos/ferns.jpg" alt="ferns">
+    </div>
+    <div class="item">
+      <img src="caramarPhotos/charlieSide.jpg" alt="dog">
+    </div>
+    <div class="item">
+      <img src="caramarPhotos/charlieBush.jpg" alt="dogInBush">
+    </div>
+    <div class="item">
+      <img src="caramarPhotos/charlieKitchen.jpg" alt="dogInKitchen">
+    </div>
+  </div><!-- carousel inner -->
+<!-- add controls here -->
+
+</div> <!-- carousel -->
+
+
+
+<div class="panel-group" id="contentAccordian" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="propertyDetailsHeading">
+      <h2 class="panel-title">
+        <a href="#propertyDetails" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="propertyDetails">Property Details</a>
+      </h2>
+    </div>
+    <div class="panel-collapse collapse in" id="propertyDetails" role="tabpanel" arialabelledby="propertyDetailsHeading">
+      <div class="panel-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="floraAndFaunaHeading">
+      <h2 class="panel-title">
+        <a href="#floraAndFauna" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="floraAndFauna">Flora and Fauna</a>
+      </h2>
+    </div>
+    <div class="panel-collapse collapse" id="floraAndFauna" role="tabpanel" arialabelledby="floraAndFaunaHeading">
+      <div class="panel-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="horsesHeading">
+      <h2 class="panel-title">
+        <a href="#horses" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="horses">Horses</a>
+      </h2>
+    </div>
+    <div class="panel-collapse collapse" id="horses" role="tabpanel" arialabelledby="horsesHeading">
+      <div class="panel-body">
+      <h3 class="panel-title">Facilities</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+      <h3 class="panel-title">Our Horses</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="historyHeading">
+      <h2 class="panel-title">
+        <a href="#history" role="button"
+    data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="historyDetails">History</a>
+      </h2>
+    </div>
+    <div class="panel-collapse collapse" id="history" role="tabpanel" arialabelledby="historyHeading">
+      <div class="panel-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div> <!-- content container -->
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

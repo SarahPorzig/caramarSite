@@ -1,0 +1,63 @@
+h2, h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+}
+.navbar-default {
+  border: none;
+}
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.panel-heading{
+  border: none;
+}
+.panel-title {
+  border: none;
+  font-size: 30px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+.panel-default {
+  border: none;
+}
+.panel-body {
+  border: none; !important
+}
+.panel {
+  border: none;
+  background-color: none;
+}
+.panel-group {
+  border: none;
+}
+.in {
+  border: none;
+}
+.panel-collapse {
+  border: none;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: white;
+}
+#navBanner {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+nav > div {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 60px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+.navbar-nav > li {
+  text-transform: capitalize;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-size: 18px;
+
+}
