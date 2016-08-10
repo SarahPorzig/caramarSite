@@ -10,6 +10,8 @@ h1 {
 .navbar {
   border-radius: 0px;
   margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .panel-heading{
   border: none;
@@ -52,7 +54,7 @@ nav > div {
 }
 
 .navbar-brand {
-  font-size: 60px;
+  font-size: 65px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 .navbar-nav > li {
