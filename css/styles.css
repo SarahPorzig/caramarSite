@@ -4,28 +4,15 @@ h2, h3 {
 h1 {
   font-size: 70px;
 }
-.navbar-default {
-  border: none;
-}
 .navbar {
   border-radius: 0px;
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.panel-heading{
-  border: none;
-}
 .panel-title {
-  border: none;
   font-size: 40px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-}
-.panel-default {
-  border: none;
-}
-.panel-body {
-  border: none; !important
 }
 .panel {
   border: none;
@@ -34,31 +21,23 @@ h1 {
 .panel-group {
   border: none;
 }
-.in {
-  border: none;
-}
-.panel-collapse {
-  border: none;
-}
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: white;
 }
 #navBanner {
   width: 100%;
   position: relative;
-  opacity: 1
+  opacity: 1;
 }
 #navBannerBottom {
   width: 100%;
   position: relative;
   padding-top: 100px;
-    opacity: 1
+  opacity: 1;
 }
-
 nav > div {
   text-align: center;
 }
-
 .navbar-brand {
   font-size: 65px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
@@ -82,6 +61,8 @@ nav > div {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+/* media queries */
 
 
 /*
