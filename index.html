@@ -18,17 +18,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Caramar<span class="subhead"> <!--- add sub-branding here if needed --> </span></a>
+          <a class="navbar-brand" id="brand" href="#">Caramar<span class="subhead"> <!--- add sub-branding here if needed --> </span></a>
         </div> <!-- navbar header -->
         <div class="collapse navbar-collapse" id="collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#propertyDetails" id="propertyButton" role="button"
+            <li><a href="#propertyDetails" class="propertyButton" role="button"
     data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="propertyDetails">Property</a></li>
-            <li><a href="#floraAndFauna" id="floraAndFaunaButton" role="button"
+            <li><a href="#floraAndFauna" class="floraAndFaunaButton" role="button"
     data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="floraAndFauna">Flora &amp; Fauna</a></li>
-            <li><a href="#horses" id="horsesButton" role="button"
+            <li><a href="#horses" class="horsesButton" role="button"
     data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="horses">Horses</a></li>
-            <li><a href="#history" id="historyButton" role="button"
+            <li><a href="#history" class="historyButton" role="button"
     data-toggle="collapse" data-parent="#contentAccordian" aria-expanded="false" aria-controls="historyDetails">History</a></li>
           </ul>
         </div><!-- collapse navbar-collapse -->
@@ -160,12 +160,21 @@
 <div class="col-md-6 text-center breakerSectionSmall">
   <span> lifestyle. </span>
 </div>
-</div> <!--container -->
-
-
-
+</div> <!--container breakerSectionSmall-->
 
 <img id="navBannerBottom" src="caramarPhotos/fernBannerThin.jpg" alt="ferns">
+
+<section class="fluid-container hidden-xs">
+  <footer>
+      <div class="footer">
+        <a class="footer backToTop" href="#collapse" role="button">Back to Top</a>
+        <a class="footer propertyButton" href="#propertyDetailsHeading" role="button">Property</a>
+        <a class="footer floraAndFaunaButton" href="#floraAndFaunaHeading" role="button">Flora &amp; Fauna</a>
+        <a class="footer horsesButton" href="#horsesHeading" role="button">Horses</a></li>
+        <a class="footer historyButton" href="#historyHeading" role="button">History</a>
+      </div>
+  </footer>
+</section> <!-- container footer -->
 
 </div> <!-- content container -->
 <script src="js/jquery-3.1.0.min.js"></script>

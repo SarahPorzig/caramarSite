@@ -43,12 +43,20 @@ nav > div {
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 .navbar-default .navbar-brand {
-
+/* enter color here for brand name */
 }
 .navbar-nav > li {
-  text-transform: capitalize;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 18px;
+}
+.footer{
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-size: 18px;
+  color: #777;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
 }
 .breakerSection {
   font-size: 80px;
