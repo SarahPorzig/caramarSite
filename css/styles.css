@@ -42,6 +42,9 @@ nav > div {
   font-size: 65px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
+.navbar-default .navbar-brand {
+
+}
 .navbar-nav > li {
   text-transform: capitalize;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
