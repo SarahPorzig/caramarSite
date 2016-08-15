@@ -24,3 +24,11 @@ $('html, body').animate({
     scrollTop: $("#brand").offset().top
   }, 1000);
 });
+
+/* changes breakpoint of navbar to medium rather than small - works with media query in css doc*/
+$('#monitor').html($(window).width());
+
+$(window).resize(function() {
+    var viewportWidth = $(window).width();
+    $('#monitor').html(viewportWidth);
+});
