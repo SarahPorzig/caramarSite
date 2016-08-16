@@ -78,6 +78,13 @@ nav > div {
 }
 
 /* media queries */
+
+@media (max-width: 767px) {
+    div#carouselCaramar {
+        padding-top: 20px;;
+    }
+}
+
 /* changes breakpoint for navbar to medium rather than small - stops navbar items from squashing under brand name at medium breakpoint */
 @media (max-width: 992px) {
     .navbar-header {
