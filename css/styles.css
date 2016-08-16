@@ -80,7 +80,7 @@ nav > div {
 /* media queries */
 
 @media (max-width: 767px) {
-    div#carouselCaramar {
+    div#carouselContainer {
         padding-top: 20px;;
     }
 }
