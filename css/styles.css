@@ -50,6 +50,9 @@ nav > div {
   font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 28px;
 }
+.panel-title > a {
+  color: #555;
+}
 .footer{
   font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 25px;
