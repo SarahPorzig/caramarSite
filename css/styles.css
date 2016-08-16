@@ -52,12 +52,16 @@ nav > div {
 }
 .footer{
   font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
-  font-size: 18px;
+  font-size: 25px;
   color: #777;
   padding-bottom: 5px;
   padding-right: 10px;
   padding-left: 10px;
   text-align: center;
+}
+.footer > a:hover {
+  text-decoration: none;
+  color: #555;
 }
 .breakerSection {
   font-size: 80px;
