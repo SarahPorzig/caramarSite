@@ -12,7 +12,7 @@ h1 {
 }
 .panel-title {
   font-size: 40px;
-  font-family: "Goudy Old Style",'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
+  font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
 }
 .panel {
   border: none;
@@ -41,17 +41,17 @@ nav > div {
 }
 .navbar-brand {
   font-size: 65px;
-  font-family: 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
+  font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
 }
 .navbar-default .navbar-brand {
 /* enter color here for brand name */
 }
 .navbar-nav > li {
-  font-family: 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
+  font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 28px;
 }
 .footer{
-  font-family:  'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
+  font-family:  "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 18px;
   color: #777;
   padding-bottom: 5px;
@@ -61,14 +61,14 @@ nav > div {
 }
 .breakerSection {
   font-size: 80px;
-  font-family: 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
+  font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
   color: rgb(192, 192, 192);
   padding-top: 200px;
   padding-bottom: 300px;
 }
 .breakerSectionSmall {
   font-size: 70px;
-  font-family: 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
+  font-family: "Goudy Old Style", 'Sorts Mill Goudy', Garamond, "Big Caslon", "Times New Roman", serif;
   color: rgb(192, 192, 192);
   padding-top: 100px;
   padding-bottom: 100px;
