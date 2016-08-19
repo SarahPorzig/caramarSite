@@ -33,7 +33,6 @@ $(window).resize(function() {
     $('#monitor').html(viewportWidth);
 });
 
-/* $('.nav a').on('click', function(){
+$('.nav a').on('click', function(){
     $('.navbar-toggle').click()
 });
-*/
