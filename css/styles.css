@@ -46,6 +46,10 @@ nav > div {
   font-size: 40px;
   font-family: "Cormorant Infant", Garamond, "Big Caslon", "Times New Roman", serif;
 }
+.navbar-brand > span.subhead{
+  font-size: 30px;
+  font-family: "Cormorant Infant", Garamond, "Big Caslon", "Times New Roman", serif;
+}
 .navbar-default .navbar-brand {
 /* enter color here for brand name */
 }

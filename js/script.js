@@ -5,9 +5,9 @@ $(document).ready(function() {
       scrollTop: $("#propertyDetailsHeading").offset().top - ( $(window).height() - $("#propertyDetailsHeading").outerHeight(true)) / 2
   }, 1000);
   });
-  $(".floraAndFaunaButton").click(function() {
+  $(".wildlifeButton").click(function() {
   $('html, body').animate({
-      scrollTop: $("#floraAndFaunaHeading").offset().top - ( $(window).height() - $("#floraAndFaunaHeading").outerHeight(true)) / 2
+      scrollTop: $("#wildlifeHeading").offset().top - ( $(window).height() - $("#wildlifeHeading").outerHeight(true)) / 2
   }, 1000);
   });
   $(".horsesButton").click(function() {
